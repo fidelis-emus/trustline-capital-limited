@@ -1,10 +1,9 @@
 {
-  "version": 1,  // <-- MISSING FIELD
+  "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "builder": "node",
-    "commands": ["npm install", "npm run build"]
+    "builder": "NIXPACKS"
   },
   "deploy": {
-    "start": "node server.ts"
+    "startCommand": "node server.ts"
   }
 }
